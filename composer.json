@@ -1,0 +1,21 @@
+{
+    "name": "sugiphp/crypt",
+    "type": "library",
+    "description": "SugiPHP Crypt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Plamen Popov",
+            "email": "tzappa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SugiPHP\\Crypt\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
