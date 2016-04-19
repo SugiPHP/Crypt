@@ -11,11 +11,6 @@ namespace SugiPHP\Crypt;
 
 class NullCrypt implements CryptInterface
 {
-    public function __construct($key = null)
-    {
-        //
-    }
-
     public function encrypt($data)
     {
         return $data;
